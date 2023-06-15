@@ -50,8 +50,5 @@ Follow these steps to initialize and execute the Terraform script:
    This will destroy all the resources created by the Terraform script. Confirm the destruction by typing yes and pressing Enter.
 
 
-Contributing
+## Contributions
 Contributions are welcome! If you encounter any issues or have suggestions for improvement, please feel free to submit a pull request or open an issue.
-
-License
-This project is licensed under the MIT License.
