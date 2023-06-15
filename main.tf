@@ -8,41 +8,6 @@ module "aws_iam" {
     ebs_instance_profile_name   = "EBInstanceProfile3"
 }
 
-
-
-# resource "aws_iam_instance_profile" "eb_instance_profile" {
-#   name = "EBInstanceProfile2"  # Update with your desired instance profile name
-#   role = aws_iam_role.eb_role.name
-# }
-
-# resource "aws_iam_role" "eb_role" {
-#   name = "EBRole2"  # Update with your desired IAM role name
-
-#   assume_role_policy = <<EOF
-# {
-# "Version": "2008-10-17",
-#   "Statement": [
-#     {
-#       "Effect": "Allow",
-#       "Principal": {
-#         "Service": "ec2.amazonaws.com"
-#       },
-#       "Action": "sts:AssumeRole"
-#     }
-#   ]
-# }
-# EOF
-# }
-
-
-
-# resource "aws_iam_role_policy_attachment" "eb_policy_attachment" {
-#   role       = aws_iam_role.eb_role.name
-#   policy_arn = "arn:aws:iam::aws:policy/AWSElasticBeanstalkWebTier"  # Update with the desired policy ARN
-# }
-
-
-
 module "aws_vpc_staging" {
     source              = "./modules/aws-vpc/"
     env_name            = "Beta"
