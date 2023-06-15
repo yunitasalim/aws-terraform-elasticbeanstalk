@@ -1,0 +1,6 @@
+app_name            = "Rainbow Rides"
+env_prod_name       = "prod"
+env_nonprod_name    = "beta"
+aws_region          = "us-west-1"
+zone_a              = "us-west-1a"
+zone_b              = "us-west-1b"

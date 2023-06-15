@@ -21,13 +21,17 @@ Follow these steps to initialize and execute the Terraform script:
 
 1. Clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/your-username/terraform-repo.git
-Change into the project directory:
-
+   ```
+2. Change into the project directory:
+   ```
+      cd terraform-repo
+   ```
+3. 
 bash
 Copy code
-cd terraform-repo
+
 Initialize Terraform:
 
 bash
