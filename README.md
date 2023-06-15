@@ -1,11 +1,8 @@
 # aws-terraform-elasticbeanstalk
 
-
-markdown
-Copy code
-# Terraform Repository
-
 This repository contains Terraform scripts to provision and manage infrastructure.
+
+![Alt Text](./static/asset/img/cicd-tf-ebs.png)
 
 ## Prerequisites
 
